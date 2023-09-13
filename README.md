@@ -1,5 +1,4 @@
 
-
 Terraform AWS Web Server Example
 This repository contains Terraform scripts for creating a basic web server on AWS for learning purposes. Please note that the public and private keys used in this template are temporary and for demonstration purposes only. If you want to use these templates in your own AWS account, you must create your own AWS account and generate your own keys.
 
