@@ -28,3 +28,11 @@ connection {
   host = self.public_ip
 }
 }
+
+output "PublicIP" {
+  value = aws_instance.kops.public_ip
+}
+
+output "PrivateIP" {
+  value = aws_instance.kops.private_ip
+}
